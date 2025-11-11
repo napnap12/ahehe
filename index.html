@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Korupsi di Indonesia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      color: #1e1e1e;
+      background-image: url('Gambarkpk.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.75); 
+      z-index: -1;
+    }
+
+    header {
+      background-color: rgba(179, 0, 0, 0.9);
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    nav {
+      background-color: rgba(34, 34, 34, 0.9);
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #b30000;
+      border-radius: 5px;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: 30px auto;
+      background-color: rgba(255, 255, 255, 0.85); /* transparan di konten */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .berita article {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+    }
+
+    .berita article a {
+      color: #b30000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .berita article a:hover {
+      text-decoration: underline;
+    }
+
+    h2 {
+      color: #b30000;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      background-color: rgba(179, 0, 0, 0.9);
+      color: white;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+  </style>
+
+<body>
+  <header>
+    <h1>Selamat datang di portal kasus korupsi di Indonesia</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="berita1.html">Kasus Terbaru</a></li>
+      <li><a href="berita2.html">Upaya </a></li>
+      <li><a href="berita3.html">Dampak</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Korupsi di Indonesia</h2>
+    <p>Website ini memberikan informasi tentang kasus korupsi di indonesia, upaya yg di lakukan lembaga hukum, serta dampak bagi masyarakat.</p>
+
+    <section class="berita">
+      <article>
+        <h3><a href="berita1.html">Kasus korupsi terbaru di Indonesia</a></h3>
+        <p>Sejumlah kasus dugaan korupsi mencuri perhatian publik di awal tahun ini, hingga Maret 2025.</p>
+      </article>
+
+      <article>
+        <h3><a href="berita2.html">Upaya KPK dalam pemberantasan korupsi.</a></h3>
+        <p>Ada tiga strategi pemberantasan korupsi yang tengah dijalankan di Indonesia, KPK menyebutnya: Trisula Pemberantasan Korupsi,  yaitu Penindakan, Pencegahan, dan Pendidikan.</p>
+      </article>
+
+      <article>
+        <h3><a href="berita3.html">Dampak korupsi bagi masyarakat.</a></h3>
+        <p>Korupsi merupakan tindakan yang dapat merugikan negara dan berdampak pada sosial ekonomi masyarakat bahkan dapat meningkatkan potensi kemiskinan.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright @nafiul-25510004</p>
+  </footer>
+</body>
+</html>
